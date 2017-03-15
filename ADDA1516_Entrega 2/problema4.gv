@@ -1,0 +1,20 @@
+digraph G {
+  TierraHierbosa;
+  Desierto;
+  IslasGigantes;
+  TierraHielo;
+  TierraOscura;
+  Oceano;
+  Cielo;
+  LaberintoTuberias;
+  ReinoBowser;
+  TierraHierbosa -> Desierto;
+  Desierto -> IslasGigantes;
+  IslasGigantes -> TierraHielo;
+  TierraHielo -> TierraOscura;
+  TierraOscura -> ReinoBowser;
+  TierraHierbosa -> Oceano;
+  Oceano -> Cielo;
+  Cielo -> LaberintoTuberias;
+  LaberintoTuberias -> ReinoBowser;
+}

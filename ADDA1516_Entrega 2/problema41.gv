@@ -1,0 +1,20 @@
+digraph G {
+  TierraHierbosa [ style="bold" ];
+  Desierto [ ];
+  IslasGigantes [ ];
+  TierraHielo [ ];
+  TierraOscura [ ];
+  Oceano [ ];
+  Cielo [ ];
+  LaberintoTuberias [ ];
+  ReinoBowser [ style="dotted" ];
+  TierraHierbosa -> Desierto [ label="/1.0" ];
+  Desierto -> IslasGigantes [ label="/1.0" ];
+  IslasGigantes -> TierraHielo [ label="/1.0" ];
+  TierraHielo -> TierraOscura [ label="/1.0" ];
+  TierraOscura -> ReinoBowser [ label="/1.0" ];
+  TierraHierbosa -> Oceano [ label="/1.0" ];
+  Oceano -> Cielo [ label="/1.0" ];
+  Cielo -> LaberintoTuberias [ label="/1.0" ];
+  LaberintoTuberias -> ReinoBowser [ label="/1.0" ];
+}
